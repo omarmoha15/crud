@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #24ee75, #7fd836, #36dd5a, #45b454);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #005213, #016118, #026c1b, #048a23);
+  }
+  .image-container {
+    position: relative;
+    
+  }
+  .dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .logo-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .welcome-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Register.css */
+.custom-input {
+ 
+  flex-direction: row;
+    background-color: white;
+    width: 70%; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 1px;
+
+    
+  }
+  .custom-button {
+    background-color: #006400;
+    color: white;
+    width: 70%; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 370px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold;
+   
+}
+
+.custom-button:hover {
+    background-color: #228B22;
+}
+  
+  
+  .image-overlay {
+    position: absolute;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(18, 43, 5, 0.5),
+      rgba(47, 176, 38, 0.5)
+    )
+   ;
+    z-index: 0;
+  }
+  @media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+    }
+  }
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
